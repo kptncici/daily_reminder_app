@@ -1,0 +1,46 @@
+name: daily_reminder_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0' # Menggunakan rentang yang lebih jelas
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8 # Versi stabil terbaru
+  firebase_core: ^3.1.0 # Versi terbaru saat ini
+  cloud_firestore: ^5.0.0 # Versi terbaru saat ini
+  provider: ^6.1.2 # Versi terbaru saat ini
+  intl: ^0.19.0 # Versi terbaru saat ini
+  firebase_auth: ^5.0.0 # Versi terbaru saat ini
+  flutter_local_notifications: ^17.1.2 # Versi terbaru saat ini
+  timezone: ^0.9.2 # Versi terbaru saat ini (hanya sekali)
+  google_fonts: ^6.2.1 # Versi terbaru saat ini
+  shared_preferences: ^2.2.3 # Versi terbaru saat ini
+  firebase_messaging: ^15.0.2 # Versi terbaru saat ini
+  permission_handler: ^11.3.1 # Versi terbaru saat ini
+  logger: ^2.0.2
+  url_launcher: ^6.2.5
+  device_info_plus: ^10.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0 # Versi stabil terbaru
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf

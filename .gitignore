@@ -1,0 +1,17 @@
+# Flutter/Dart
+build/
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+android/.gradle
+ios/Pods
+*.iml
+
+# VS Code
+.vscode/
+
+# Firebase config (jika tidak ingin dibuka publik)
+lib/services/firebaseConfig.dart
